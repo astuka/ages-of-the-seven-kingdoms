@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ages of the Seven Kingdoms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+        <div class="right-panel">
+            <div class="stats-panel">
+                <h2>Character Stats</h2>
+                <div id="character-stats">
+                    <p>Name: <span id="char-name">-</span></p>
+                    <p>Gender: <span id="char-gender">-</span></p>
+                    <p>Level: <span id="char-level">1</span></p>
+                    <p>Race: <span id="char-race">-</span></p>
+                    <div class="attributes">
+                        <p>Strength: <span id="char-strength">10</span></p>
+                        <p>Endurance: <span id="char-endurance">10</span></p>
+                        <p>Agility: <span id="char-agility">10</span></p>
+                        <p>Perception: <span id="char-perception">10</span></p>
+                        <p>Intelligence: <span id="char-intelligence">10</span></p>
+                        <p>Wisdom: <span id="char-wisdom">10</span></p>
+                        <p>Health: <span id="char-health">20</span></p>
+                        <p>Magic: <span id="char-magic">10</span></p>
+                        <p>Money: <span id="char-money">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-panel">
+                <div id="chat-log"></div>
+                <div class="input-container">
+                    <input type="text" id="command-input" placeholder="Enter command...">
+                    <button id="send-command">Send</button>
+                </div>
+            </div>
+            <div class="inventory-panel">
+                <h2>Inventory</h2>
+                <div id="inventory-log"></div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 

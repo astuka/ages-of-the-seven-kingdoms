@@ -1,4 +1,4 @@
-Available to play in browser on Itch.io: 
+Available to play in browser on Itch.io: https://jbr-productions.itch.io/ages-of-the-seven-kingdoms
 
 # TODO
 
